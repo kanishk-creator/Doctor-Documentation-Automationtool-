@@ -1,2 +1,2 @@
-About :
-LibreCAD docs helper scripts for parsing UI metadata to generate user manual reference tables.
+Both the files from which data to be extracted should be present in the directory 
+This tool is in Development, will be more capable in future updates
