@@ -46,13 +46,13 @@ for i in range(len(postdata)): #iterate through records
 
     database.append([postdata[i][0],alias,postdata[i][2]])   
     alias = []
-print(database)
+#print(database)
 for i in database:
     if not i[1] == []:
         keep.append(i)
-#print(keep)
+print(keep)
 #first file data is over 
-filec = open('HT.txt','r')
-datac = filec.read()
+#filec = open('HT.txt','r')
+#datac = filec.read()
 #predatac = 
 #print(datac)
