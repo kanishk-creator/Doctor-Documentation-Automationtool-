@@ -56,3 +56,10 @@ print(keep)
 #datac = filec.read()
 #predatac = 
 #print(datac)
+
+#okay now i won't change anything above just need to format it , that's it, one binary and one csv or md file and add the data by running another file.
+
+import csv
+FD = open("./Data.csv",'w')
+writer = csv.writer(FD)
+writer.writerows(keep)
